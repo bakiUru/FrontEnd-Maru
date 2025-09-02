@@ -1,0 +1,35 @@
+:root{
+    --primary-nav-color: #B2B0E8; /* Yellow */
+    --secondary-nav-color:#7A85C1;
+    --secondary-color: #f1f1f1; /* Light Gray */
+    --text-color: #333; /* Dark Gray */
+}
+
+.nav-login{
+    width: 100%;
+    background-color: var(--primary-nav-color);
+    color: var(--text-color);
+    padding: 4px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content:center;
+    /*z-index: 10; Esto genera que cuando escrollea se mantenga 10 px por arriba de los elementos*/
+
+}
+
+.logo-login{
+    width: 90px;
+}
+
+.logo-login:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.5);
+}
+
+
+.menu-icon{
+    display: none;
+}

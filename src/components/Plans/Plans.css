@@ -1,0 +1,15 @@
+.plans {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin: 60px auto;
+  max-width: 1200px;
+}
+
+/*---media query---*/
+@media (max-width: 650px){
+    .plans{
+         flex-direction: column;
+     }
+}

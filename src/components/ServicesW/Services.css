@@ -1,0 +1,84 @@
+.services{
+    margin: 80px auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+
+}
+.imageServices img{
+    object-fit: cover;
+    overflow: hidden;
+}
+.trabajo img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    object-fit: cover;
+    overflow: hidden;
+
+}
+
+.trabajo{
+    position: relative;
+    flex: 1 1 300px;          /* cada item ocupa mínimo 300px */
+    max-width: 32%;           /* en desktop entra aprox 3 por fila */
+    aspect-ratio: 4/3;        /* mantiene proporción */
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.caption{
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.caption img{
+    width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+
+}
+
+.trabajo:hover .caption{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@media (max-width: 1330px){
+    .services{
+        flex-direction: column;
+    }
+    .trabajo{
+        flex: 1 1 400px;
+        max-width: 100%;
+    }
+}
+/*---media query---*/
+@media (max-width: 800px){
+
+    .trabajo{
+        max-width: 100%;
+        margin: 20px;
+        flex: 1 1 400px;
+        max-width: 100%;
+    }
+
+    .caption-exer{
+        padding-top: 0;
+    }
+   
+}

@@ -1,0 +1,5 @@
+https://colorhunt.co/palette/1a2a803b38a07a85c1b2b0e8
+primary = 1A2A80
+secundary = 3B38A0
+tridh = 7A85C1
+fourt = B2B0E8

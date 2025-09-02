@@ -1,0 +1,103 @@
+:root{
+ --primary-color: #1A2A80; 
+  --secondary-color: #f1f1f1; 
+  --text-color: #333; 
+  --prymary-font-family: 'Outfit', sans-serif;
+  --bacground-color-card:#c77171;
+}
+
+.card-plans{
+    flex: 1 1 280px;
+  max-width: 320px;
+  background: #fff;
+  border-radius: 16px;
+  padding: 24px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.card-plans:hover{
+    transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+}
+
+.title-cards{
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #1a1a1a;
+  text-transform: uppercase;
+}
+
+.name-cards{
+  font-size: 1rem;
+  font-weight: 600;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.price-cards{
+    font-size: 1.8rem;
+  font-weight: 700;
+  color: #4f46e5; /* morado elegante */
+  margin-bottom: 16px;
+}
+
+.description-cards{
+    font-size: 0.95rem;
+  color: #444;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  flex-grow: 1; /* 📌 Ocupa el espacio disponible */
+}
+
+.card-plans button {
+  background: #4f46e5;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: auto; /* 📌 Lo empuja al fondo */
+}
+.card-plans button:hover{
+
+  background: #3730a3;
+}
+
+/* Variante destacada (Premium) */
+.card-plans.premium {
+  border: 2px solid #f59e0b;
+}
+
+.card-plans.premium .name-cards {
+  color: #f59e0b;
+}
+
+.card-plans.premium .price-cards {
+  color: #f59e0b;
+}
+
+.card-plans.premium .description-cards {
+  color: #f59e0b;
+  flex-grow: 1; /* 📌 Ocupa el espacio disponible */
+}
+
+.card-plans.premium button {
+  background: #f59e0b;
+  margin-top: auto; /* 📌 Lo empuja al fondo */
+  color: #fff;
+}
+
+.card-plans.premium button:hover {
+  background: #4b4a48;
+  color: #f59e0b;
+
+}
