@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
 
 import './VideoPlayer.css'
-import video from '../../assets/videoMaru.mp4'
+import video from 'src/assets/videoMaru.mp4'
 function VideoPlayer({playState, setPlayState}) {
   const player = useRef(null);
   const closePlayer=(e)=>{

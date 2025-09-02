@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './Carrousel.css'
-import next_icon from '../../assets/right-arrow_11461261.png'
-import prev_icon from '../../assets/back-arrow_11461251.png'
+import next_icon from 'src/assets/right-arrow_11461261.png'
+import prev_icon from 'src/assets/back-arrow_11461251.png'
 
 
 export default function Carrousel() {

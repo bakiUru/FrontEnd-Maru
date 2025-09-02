@@ -1,11 +1,11 @@
 import React from 'react'
 import './Services.css'
-import trabajo1 from '../../assets/fotoFuerza.jpg'
-import trabajo2 from '../../assets/fotoCardio.jpg'
-import trabajo3 from '../../assets/fotoBienestar.pjpeg'
-import icon1 from '../../assets/pesa.svg'
-import icon2 from '../../assets/cardio.svg'
-import icon3 from '../../assets/bienestar.SVG'
+import trabajo1 from 'src/assets/fotoFuerza.jpg'
+import trabajo2 from 'src/assets/fotoCardio.jpg'
+import trabajo3 from 'src/assets/fotoBienestar.pjpeg'
+import icon1 from 'src/assets/pesa.svg'
+import icon2 from 'src/assets/cardio.svg'
+import icon3 from 'src/assets/bienestar.SVG'
 
 
 
