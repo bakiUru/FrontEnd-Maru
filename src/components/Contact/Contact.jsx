@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import './Contact.css'
-import msg_icon from 'src/assets/correo-electronico.png'
-import correo_icon from 'src/assets/correo.png'
-import telefono_icon from 'src/assets/llamada-telefonica.png'
-import ubicacion_icon from 'src/assets/marcador-de-posicion.png'
-import enviando_icon from 'src/assets/enviando.png'
+import msg_icon from '../../assets/correo-electronico.png'
+import correo_icon from '../../assets/correo.png'
+import telefono_icon from '../../assets/llamada-telefonica.png'
+import ubicacion_icon from '../../assets/marcador-de-posicion.png'
+import enviando_icon from '../../assets/enviando.png'
 
 function Contact() {
     // ENVIO DE CORREO POR SERVICIO DE WEb3

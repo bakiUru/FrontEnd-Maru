@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
-import aboutImgVideo from 'src/assets/maru_foto.jpg' 
-import playIcon from 'src/assets/boton-de-play.png'
+import aboutImgVideo from '../../assets/maru_foto.jpg' 
+import playIcon from '../../assets/boton-de-play.png'
 
 function About({setPlayState}) {
 

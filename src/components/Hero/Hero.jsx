@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import flechaLogo from 'src/assets/circulo-de-flecha.png'
+import flechaLogo from '../../assets/circulo-de-flecha.png'
 
 export const Hero = () => {
   const whatsappSend ={

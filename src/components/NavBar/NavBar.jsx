@@ -1,8 +1,8 @@
 import React, { useEffect, useState} from 'react'
 import './Navbar.css'
-import maLogo from 'src/assets/logoMA.png'
-import menu_icon from 'src/assets/lista-menu.png'
-import menu_icon2 from 'src/assets/menu.png'
+import maLogo from '../../assets/logoMA.png'
+import menu_icon from '../../assets/lista-menu.png'
+import menu_icon2 from '../../assets/menu.png'
 import { Link } from 'react-scroll'
 import {Link as Links }  from 'react-router-dom'
 

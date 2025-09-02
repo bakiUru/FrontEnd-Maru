@@ -1,10 +1,10 @@
 import React from 'react'
 import './Gallery.css'
-import galleria1 from 'src/assets/abdominales.jpg'
-import galleria2 from 'src/assets/bulgaras.jpg'
-import galleria3 from 'src/assets/bicep.jpg'
-import galleria4 from 'src/assets/triceps.jpg'
-import flechaDer from 'src/assets/flecha-derecha.png'
+import galleria1 from '../../assets/abdominales.jpg'
+import galleria2 from '../../assets/bulgaras.jpg'
+import galleria3 from '../../assets/bicep.jpg'
+import galleria4 from '../../assets/triceps.jpg'
+import flechaDer from '../../assets/flecha-derecha.png'
 
 
 
