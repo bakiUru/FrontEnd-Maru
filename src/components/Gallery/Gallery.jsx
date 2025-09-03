@@ -6,9 +6,6 @@ import galleria3 from '../../assets/bicep.jpg'
 import galleria4 from '../../assets/triceps.jpg'
 import flechaDer from '../../assets/flecha-derecha.png'
 
-
-
-
 function Gallery() {
   return (
     <>

@@ -3,9 +3,9 @@ import './Services.css'
 import trabajo1 from '../../assets/fotoFuerza.jpg'
 import trabajo2 from '../../assets/fotoCardio.jpg'
 import trabajo3 from '../../assets/fotoBienestar.pjpeg'
-import icon1 from '../../assets/pesa.svg'
-import icon2 from '../../assets/cardio.svg'
-import icon3 from '../../assets/bienestar.SVG'
+import icon1 from '../../assets/pesa.png'
+import icon2 from '../../assets/cardio.png'
+import icon3 from '../../assets/bienestar.png'
 
 
 
