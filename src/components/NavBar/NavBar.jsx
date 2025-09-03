@@ -65,7 +65,7 @@ const NavBar = () => {
                 Testimonios</Link></li>
             <li className='text'>
             <Link
-            to='gallery'
+            to='plans'
             spy={true}
             smooth={true}
             offset={-300}
